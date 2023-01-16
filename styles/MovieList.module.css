@@ -1,0 +1,61 @@
+.container {
+  max-width: 60em;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  width: 240px;
+}
+
+.card > h3 {
+  color: #d9d7e0;
+  cursor: pointer;
+}
+
+.image {
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.title {
+  color: #fff;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 700;
+  margin: 32px 0;
+}
+
+.wrapper {
+  max-width: 60em;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper div > div {
+  color: #d40242;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 0.8em;
+  opacity: 0.7;
+  width: 8vw;
+}
+
+.wrapper div {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.wrapper p {
+  color: #d9d7e0;
+  text-align: left;
+  margin: 0;
+  width: 92vw;
+}
